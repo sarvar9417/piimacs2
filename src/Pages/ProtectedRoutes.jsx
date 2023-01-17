@@ -7,10 +7,9 @@ const otherRoutes = {
   element: <Navigate to={"/"} replace={true} />,
 };
 const MainPage = lazy(() => import("./MainPage/Main"));
-const AdminPage = lazy(() => import("./AdminPage/Admin"));
-const SectionRoutes = lazy(() => import("./SectionRoutes/SectionRoutes"));
-
-// <-- pages
+// const AdminPage = lazy(() => import("./AdminPage/Admin"));
+const ChapterRoutes = lazy(() => import("./ChapterRoutes/ChapterRoutes"))
+const SectionRoutes = lazy(() => import("./SectionRoutes/SectionRoutes"))
 
 // routes -->
 const userRoutes = [
@@ -19,12 +18,12 @@ const userRoutes = [
     element: <MainPage />,
   },
   {
-    path: "/teacher",
-    element: <AdminPage />,
+    path: "/chapters",
+    element: <ChapterRoutes/>
   },
   {
-    path: "/sectionroutes",
-    element: <SectionRoutes />,
+    path: "/section",
+    element: <SectionRoutes/>
   },
   otherRoutes,
 ];

@@ -1,53 +1,45 @@
-import React, {useEffect, useState} from 'react'
-import {useLocation} from 'react-router-dom'
-import {findIndex, map, uniqueId} from 'lodash'
-import {levels} from '../../Config/globalConstants'
+import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { map, uniqueId } from "lodash";
+import { levels } from "../../Config/globalConstants";
+import { levels_name } from "../../datas/levels_name";
 
 const ChapterRoutes = () => {
-    const location = useLocation();
-    const [routes, setRoutes] = useState([]);
-    const [currentLevel, setCurrentLevel] = useState([]);
-    const [buttonName, setButtonName] = useState();
-    const [sections, setSections] = useState([]);
+  const location = useLocation();
+  const [routes, setRoutes] = useState([]);
+  const [levelName, setLevelName] = useState("");
 
-    const handleMenu = (e) => {
-        const name = e.target.name;
-        setButtonName(name);
-        const index = findIndex(currentLevel, (level) => level.name === name);
-        setSections(currentLevel[index].sections);
-    };
+  const subroutines = (subsections) => (
+      <ul>
+        {map(subsections, ({ name,  subsection }) => (
+            <li key={uniqueId('subsection')} className="ml-7 text-blue-500 underline" style={{listStyle:'circle'}}>
+              <Link to='/section' state={{subsection}} >{name}</Link>
+                {subsection}
+            </li>
+        ))}
+      </ul>
+  );
 
-    useEffect(() => {
-        const level = location?.state?.level;
-        const routes = map(levels[level], ({ name }) => (
-            <button
-                key={uniqueId()}
-                className={`px-5 border-rounded-t rounded-t z-10 py-2  ${
-                    name === buttonName
-                        ? "bg-white border border-b-0 border-neutral-300 text-neutral-700"
-                        : "text-neutral-500"
-                }`}
-                onClick={handleMenu}
-                name={name}
-            >
-                {name}
-            </button>
-        ));
-        setRoutes(routes);
-        setCurrentLevel(levels[level]);
-    }, [location, buttonName]);
+  useEffect(() => {
+    const level = location?.state?.level;
+    setLevelName(levels_name[level]);
 
-    useEffect(() => {
-        setSections(currentLevel[0]?.sections);
-        setButtonName(currentLevel[0]?.name);
-    }, [currentLevel]);
+    const routes = map(levels[level], ({ name, subsections }, index) => (
+      <li key={uniqueId("level")}>
+        <h3 className='font-semibold'>
+          {index + 1}. {name}
+        </h3>
+        {subroutines(subsections)}
+      </li>
+    ));
+    setRoutes(routes);
+  }, [location]);
+  return (
+    <div>
+      <h1 className="text-2xl font-bold py-3">{levelName}</h1>
+      <ul>{routes}</ul>
+    </div>
+  );
+};
 
-    useEffect(() => {}, [buttonName]);
-    return (
-        <div>
-
-        </div>
-    )
-}
-
-export default ChapterRoutes
+export default ChapterRoutes;
