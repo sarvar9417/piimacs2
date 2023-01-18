@@ -282,27 +282,21 @@ export const concepts = {
             </thead>
             <tbody>
               <tr>
-                <td className="border border-neutral-300">
-                  Minions
-                </td>
+                <td className="border border-neutral-300">Minions</td>
                 <td className="border border-neutral-300">U</td>
                 <td className="border border-neutral-300">91</td>
                 <td className="border border-neutral-300">Blue Room</td>
                 <td className="border border-neutral-300">17:45</td>
               </tr>
               <tr>
-                <td className="border border-neutral-300">
-                  Jumanji
-                </td>
+                <td className="border border-neutral-300">Jumanji</td>
                 <td className="border border-neutral-300">PG</td>
                 <td className="border border-neutral-300">104</td>
                 <td className="border border-neutral-300">Grand Theatre A</td>
                 <td className="border border-neutral-300">18:15</td>
               </tr>
               <tr>
-                <td className="border border-neutral-300">
-                  Minions
-                </td>
+                <td className="border border-neutral-300">Minions</td>
                 <td className="border border-neutral-300">U</td>
                 <td className="border border-neutral-300">91</td>
                 <td className="border border-neutral-300">Green Room</td>
@@ -316,9 +310,7 @@ export const concepts = {
                 <td className="border border-neutral-300">19:30</td>
               </tr>
               <tr>
-                <td className="border border-neutral-300">
-                  Jumanji
-                </td>
+                <td className="border border-neutral-300">Jumanji</td>
                 <td className="border border-neutral-300">U</td>
                 <td className="border border-neutral-300">104</td>
                 <td className="border border-neutral-300">Grand Theatre B</td>
@@ -468,27 +460,21 @@ export const concepts = {
             </thead>
             <tbody>
               <tr>
-                <td className="border border-neutral-300">
-                  Minions
-                </td>
+                <td className="border border-neutral-300">Minions</td>
                 <td className="border border-neutral-300">U</td>
                 <td className="border border-neutral-300">91</td>
                 <td className="border border-neutral-300">Blue Room</td>
                 <td className="border border-neutral-300">17:45</td>
               </tr>
               <tr>
-                <td className="border border-neutral-300">
-                  Jumanji
-                </td>
+                <td className="border border-neutral-300">Jumanji</td>
                 <td className="border border-neutral-300 bg-amber-200">PG</td>
                 <td className="border border-neutral-300">104</td>
                 <td className="border border-neutral-300">Grand Theatre A</td>
                 <td className="border border-neutral-300">18:15</td>
               </tr>
               <tr>
-                <td className="border border-neutral-300">
-                  Minions
-                </td>
+                <td className="border border-neutral-300">Minions</td>
                 <td className="border border-neutral-300">U</td>
                 <td className="border border-neutral-300">91</td>
                 <td className="border border-neutral-300">Green Room</td>
@@ -498,16 +484,18 @@ export const concepts = {
                 <td className="border border-neutral-300">Thor</td>
                 <td className="border border-neutral-300">12A</td>
                 <td className="border border-neutral-300">114</td>
-                <td className="border border-neutral-300 bg-bluesky">Grand Theatre B</td>
+                <td className="border border-neutral-300 bg-bluesky">
+                  Grand Theatre B
+                </td>
                 <td className="border border-neutral-300">19:30</td>
               </tr>
               <tr>
-                <td className="border border-neutral-300">
-                  Jumanji
-                </td>
+                <td className="border border-neutral-300">Jumanji</td>
                 <td className="border border-neutral-300 bg-amber-200">U</td>
                 <td className="border border-neutral-300">104</td>
-                <td className="border border-neutral-300 bg-bluesky">Grand Theatre B</td>
+                <td className="border border-neutral-300 bg-bluesky">
+                  Grand Theatre B
+                </td>
                 <td className="border border-neutral-300">19:45</td>
               </tr>
               <tr>
@@ -522,5 +510,6 @@ export const concepts = {
         </>
       ),
     },
+    {},
   ],
 };
