@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/sarvar9417.github.io/piimacs2/static/css/main.3d27a6e9.css",
+    "main.js": "/sarvar9417.github.io/piimacs2/static/js/main.2e9774bc.js",
+    "static/js/526.c583f277.chunk.js": "/sarvar9417.github.io/piimacs2/static/js/526.c583f277.chunk.js",
+    "static/js/470.5c1d06f2.chunk.js": "/sarvar9417.github.io/piimacs2/static/js/470.5c1d06f2.chunk.js",
+    "static/js/285.98760b10.chunk.js": "/sarvar9417.github.io/piimacs2/static/js/285.98760b10.chunk.js",
+    "static/js/198.68adeaa2.chunk.js": "/sarvar9417.github.io/piimacs2/static/js/198.68adeaa2.chunk.js",
+    "static/js/976.de583010.chunk.js": "/sarvar9417.github.io/piimacs2/static/js/976.de583010.chunk.js",
+    "static/js/763.8b8b0e5b.chunk.js": "/sarvar9417.github.io/piimacs2/static/js/763.8b8b0e5b.chunk.js",
+    "static/media/AmazonEmber.ttf": "/sarvar9417.github.io/piimacs2/static/media/AmazonEmber.4c5f8783fc6015d993cd.ttf",
+    "static/media/AmazonEmberBold.ttf": "/sarvar9417.github.io/piimacs2/static/media/AmazonEmberBold.aaade75020189dfc336e.ttf",
+    "static/media/loop.svg": "/sarvar9417.github.io/piimacs2/static/media/loop.5eb132b2e115b77adba0561ef9b358c5.svg",
+    "static/media/arrayBirds.svg": "/sarvar9417.github.io/piimacs2/static/media/arrayBirds.3484f7b363d7c108f5b252d3cc67984e.svg",
+    "static/media/CS.jpeg": "/sarvar9417.github.io/piimacs2/static/media/CS.2f0def59c457e6be68b3.jpeg",
+    "index.html": "/sarvar9417.github.io/piimacs2/index.html",
+    "main.3d27a6e9.css.map": "/sarvar9417.github.io/piimacs2/static/css/main.3d27a6e9.css.map",
+    "main.2e9774bc.js.map": "/sarvar9417.github.io/piimacs2/static/js/main.2e9774bc.js.map",
+    "526.c583f277.chunk.js.map": "/sarvar9417.github.io/piimacs2/static/js/526.c583f277.chunk.js.map",
+    "470.5c1d06f2.chunk.js.map": "/sarvar9417.github.io/piimacs2/static/js/470.5c1d06f2.chunk.js.map",
+    "285.98760b10.chunk.js.map": "/sarvar9417.github.io/piimacs2/static/js/285.98760b10.chunk.js.map",
+    "198.68adeaa2.chunk.js.map": "/sarvar9417.github.io/piimacs2/static/js/198.68adeaa2.chunk.js.map",
+    "976.de583010.chunk.js.map": "/sarvar9417.github.io/piimacs2/static/js/976.de583010.chunk.js.map",
+    "763.8b8b0e5b.chunk.js.map": "/sarvar9417.github.io/piimacs2/static/js/763.8b8b0e5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d27a6e9.css",
+    "static/js/main.2e9774bc.js"
+  ]
+}
