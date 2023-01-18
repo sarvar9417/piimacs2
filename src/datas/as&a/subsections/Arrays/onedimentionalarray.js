@@ -49,7 +49,6 @@ export const onedimentionalarray = {
         </>
       ),
     },
-
     {
       defination: (
         <>
@@ -115,7 +114,6 @@ export const onedimentionalarray = {
         </>
       ),
     },
-
     {
       name: "Using a one-dimensional array. (Bir o'lchovli massivlardan foydalanish)",
       defination: (
@@ -143,7 +141,6 @@ export const onedimentionalarray = {
         </>
       ),
     },
-
     {
       defination: (
         <>
@@ -181,7 +178,6 @@ export const onedimentionalarray = {
         'spelling_words[9] = "busy"',
       code: "spelling_words = ['path', 'floor', 'sugar', 'because', 'beautiful', 'clothes', 'whole', 'behind', 'move', 'busy']",
     },
-
     {
       defination: (
         <>
@@ -200,7 +196,6 @@ export const onedimentionalarray = {
       pseudocode: "PRINT(spelling_words[2])",
       code: "print(spelling_words[2])",
     },
-
     {
       defination: (
         <>
@@ -221,7 +216,6 @@ export const onedimentionalarray = {
         "FOR i = 0 TO 9 \n     PRINT(spelling_words[i])\n NEXT word",
       code: "for i in range(10): \n     print(spelling_words[i])",
     },
-
     {
       name: "Tasks",
       defination: (
@@ -244,7 +238,6 @@ export const onedimentionalarray = {
         "odd_numbers = [i*2-1 for i in range(1, n+1)] \n" +
         "print(odd_numbers)",
     },
-
     {
       defination: (
         <>
@@ -258,7 +251,6 @@ export const onedimentionalarray = {
         "pow_two = [int(math.pow(2, i)) for i in range(1, n+1)] \n" +
         "print(pow_two)",
     },
-
     {
       defination: (
         <>
@@ -276,7 +268,6 @@ export const onedimentionalarray = {
         "a_p = [a+d*i for i in range(n)] \n" +
         "print(a_p)",
     },
-
     {
       defination: (
         <>
@@ -331,7 +322,6 @@ export const onedimentionalarray = {
         "    summ += array[i]\n" +
         "print(array)",
     },
-
     {
       defination: (
         <>
@@ -397,7 +387,6 @@ export const onedimentionalarray = {
         "odd_numbers.sort()\n" +
         "print(odd_numbers,count)",
     },
-
     {
       defination: (
         <>
