@@ -218,8 +218,8 @@ export const onedimentionalarray = {
         </>
       ),
       pseudocode:
-        "FOR i = 0 TO 9\n" + "    PRINT(spelling_words[i])\n" + "NEXT word",
-      code: "for i in range(10):\n" + "    print(spelling_words[i])",
+        "FOR i = 0 TO 9 \n     PRINT(spelling_words[i])\n NEXT word",
+      code: "for i in range(10): \n     print(spelling_words[i])",
     },
 
     {
