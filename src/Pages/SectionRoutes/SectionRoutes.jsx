@@ -34,8 +34,6 @@ const SectionRoutes = () => {
     </button>
   ));
 
-  useEffect(() => {}, [datas]);
-
   return (
     <div className="my-7 flex flex-col">
       <h1 className="pb-5 font-bold text-xl pl-4">
@@ -52,10 +50,10 @@ const SectionRoutes = () => {
                 <h3 className="font-bold text-cyan-500 text-xl">{name}</h3>
               )}
               {term ? (
-                <p>
+                <div>
                   <b>{term}</b> - {defination}
-                </p>
-              ):(<p>{defination}</p>)}
+                </div>
+              ):(<div>{defination}</div>)}
               {pseudocode && (
                 <div>
                   <h1 className="font-bold text-lg text-neutral-700 py-2">

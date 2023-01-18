@@ -10,14 +10,19 @@ const ChapterRoutes = () => {
   const [levelName, setLevelName] = useState("");
 
   const subroutines = (subsections) => (
-      <ul>
-        {map(subsections, ({ name,  subsection }) => (
-            <li key={uniqueId('subsection')} className="ml-7 text-blue-500 underline" style={{listStyle:'circle'}}>
-              <Link to='/section' state={{subsection}} >{name}</Link>
-                {subsection}
-            </li>
-        ))}
-      </ul>
+    <ul>
+      {map(subsections, ({ name, subsection }) => (
+        <li
+          key={uniqueId("subsection")}
+          className="ml-7 text-blue-500 underline"
+          style={{ listStyle: "circle" }}
+        >
+          <Link to="/section" state={{ subsection }}>
+            {name}
+          </Link>
+        </li>
+      ))}
+    </ul>
   );
 
   useEffect(() => {
@@ -26,7 +31,7 @@ const ChapterRoutes = () => {
 
     const routes = map(levels[level], ({ name, subsections }, index) => (
       <li key={uniqueId("level")}>
-        <h3 className='font-semibold'>
+        <h3 className="font-semibold">
           {index + 1}. {name}
         </h3>
         {subroutines(subsections)}

@@ -1,13 +1,15 @@
-import {algorithms, databases} from './subsections'
+import {algorithms, arrays, databases} from './subsections'
 export const sections = [
   {
     name: "Algorithms",
     subsections: algorithms
   },
+  {name:"Arrays", subsections: arrays},
   {
     name: "Database",
     subsections: databases
   },
+
   {
     name: "Communications",
     subsections:[]
