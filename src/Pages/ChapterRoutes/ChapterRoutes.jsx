@@ -40,9 +40,9 @@ const ChapterRoutes = () => {
     setRoutes(routes);
   }, [location]);
   return (
-    <div>
+    <div className="flex flex-col max-h-full">
       <h1 className="text-2xl font-bold py-3">{levelName}</h1>
-      <ul>{routes}</ul>
+      <ul className="overflow-y-scroll">{routes}</ul>
     </div>
   );
 };

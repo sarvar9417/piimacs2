@@ -35,12 +35,12 @@ const SectionRoutes = () => {
   ));
 
   return (
-    <div className="my-7 flex flex-col">
+    <div className="my-7 flex flex-col max-h-full ">
       <h1 className="pb-5 font-bold text-xl pl-4">
         {allSubsections[locationState]?.name}
       </h1>
       <div className="px-3 border-neutral-300">{routes}</div>
-      <div className="w-full bg-white  p-4 shadow  overflow-y-scroll max-h-[39rem]">
+      <div className="w-full bg-white  p-4 shadow  overflow-y-scroll">
         <h1 className="font-bold text-2xl mb-3">{datas.name}</h1>
         {map(
           datas.definations,

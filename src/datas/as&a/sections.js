@@ -25,4 +25,128 @@ export const sections = [
     name: "Processor fundamentals",
     subsections:[]
   },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
+  {
+    name: "Processor fundamentals",
+    subsections:[]
+  },
 ];
