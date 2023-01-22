@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { allSubsections } from "../../datas/allSubsections";
 import { findIndex, map, uniqueId } from "lodash";
@@ -44,16 +44,20 @@ const SectionRoutes = () => {
         <h1 className="font-bold text-2xl mb-3">{datas.name}</h1>
         {map(
           datas.definations,
-          ({ name, defination, code, term, pseudocode, image }) => (
-            <div className="my-5" key={uniqueId()}>
+          ({ name, defination, code, term, pseudocode, image, language }) => (
+            <div className={`my-5 `} key={uniqueId()}>
               {name && (
                 <h3 className="font-bold text-cyan-500 text-xl">{name}</h3>
               )}
               {term ? (
-                <div>
+                <div className={language === "uzb" && "bg-slate-100"}>
                   <b>{term}</b> - {defination}
                 </div>
-              ):(<div>{defination}</div>)}
+              ) : (
+                <div className={language === "uzb" && "bg-slate-100 " }>
+                  {defination}
+                </div>
+              )}
               {pseudocode && (
                 <div>
                   <h1 className="font-bold text-lg text-neutral-700 py-2">
