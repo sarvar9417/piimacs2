@@ -1,7 +1,7 @@
 import linearSearch1 from "../../../../assets/images/linearSearch.png";
 import linearSearch2 from "../../../../assets/images/linearsearch2.svg";
 import linearSearch3 from "../../../../assets/images/linearsearch3.svg";
-import linearSearch4 from "../../../../assets/images/linearsearchiitr.gif"
+import linearSearch4 from "../../../../assets/images/linearsearchiitr.gif";
 
 export const linearSearch = {
   name: "Linear",
@@ -156,16 +156,16 @@ export const linearSearch = {
       name: "Tasks",
       defination: (
         <>
-          1. [5, 8, 1, 2, 13, 7,  9, 10, 11, 6] to'plam ichida kiritilgan
-          n soni mavjud yoki mavjud emasligini topish algoritmi uchun pseudocode
-          hamda dastur tuzing.
+          1. [5, 8, 1, 2, 13, 7, 9, 10, 11, 6] to'plam ichida kiritilgan n soni
+          mavjud yoki mavjud emasligini topish algoritmi uchun pseudocode hamda
+          dastur tuzing.
         </>
       ),
-       image: {
-          name: linearSearch4,
-           alt: 'Task1',
-           width: '400px'
-       } ,
+      image: {
+        name: linearSearch4,
+        alt: "Task1",
+        width: "400px",
+      },
       pseudocode:
         "FUNCTION linearSearch(array, l, n):\n" +
         "    FOR i <- 0 TO l DO:\n" +
@@ -203,6 +203,39 @@ export const linearSearch = {
         '    print("Son mavjud emas")\n' +
         "else:\n" +
         '    print("Son mavjud, indeksi: ", result)',
+    },
+
+    {
+      defination: (
+        <>
+          2. A function, linearSearch(), takes an integer as a parameter and
+          performs a linear search on arrayData to find the parameter value. It
+          returns True if it was found and False if it was not found.
+          <br />
+          Write program code for the function linearSearch().
+          <br />
+          <br />
+          LinearSearch() funksiyasi parametr sifatida butun sonni oladi va
+          parametr qiymatini topish uchun arrayData da chiziqli qidiruvni amalga
+          oshiradi. Agar topilsa True, topilmasa False qaytaradi.
+          <br />
+          Ushbu linearSearch() funksiyasi uchun dastur kodini yozing.
+        </>
+      ),
+      code:
+        "def linearSearch(searchValue):\n" +
+        "    for x in range(0, 10):\n" +
+        "        if (arrayData[x] == searchValue):\n" +
+        "            return True\n" +
+        "    return False \n" +
+        " \n" +
+        "arrayData = [10, 5, 6, 7, 1, 12, 13, 15, 21, 8]\n" +
+        'searchValue = int(input("Enter the number to search for"))\n' +
+        "returnValue = linearSearch(searchValue)\n" +
+        "if returnValue == True:\n" +
+        '    print("It was found")\n' +
+        "else:\n" +
+        '    print("It was not found")',
     },
   ],
 };
