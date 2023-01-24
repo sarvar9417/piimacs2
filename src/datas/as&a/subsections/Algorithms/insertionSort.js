@@ -372,5 +372,11 @@ export const insertionSort = {
         </>
       ),
     },
+
+      {
+          defination: <>
+          Page 171. Task 1
+          </>
+      }
   ],
 };

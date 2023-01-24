@@ -121,6 +121,7 @@ export const bubbleSort = {
         "print(items)",
     },
     {
+      name: "Tasks",
       defination: (
         <>
           {" "}
@@ -136,7 +137,6 @@ export const bubbleSort = {
       ),
     },
     {
-      name: "Tasks",
       defination: (
         <>
           <b>2.</b> Quyida <b>bubble sort</b> pseudocode algoritmi to'plamdagi
@@ -163,7 +163,6 @@ export const bubbleSort = {
         "    NEXT x\n" +
         " ENDPROCEDURE",
     },
-
     {
       defination: (
         <>
@@ -186,7 +185,6 @@ export const bubbleSort = {
         "    ENDFOR \n" +
         "ENDFOR ",
     },
-
     {
       defination: (
         <>
@@ -204,6 +202,34 @@ export const bubbleSort = {
           </ul>
         </>
       ),
+    },
+
+    {
+      defination: <> <b>4.</b> Page 96. Task 7</>,
+    },
+    {
+      defination: <><b>5.</b> Page 112. Task 7</>,
+    },
+    {
+      defination: <><b>6.</b> Page 158. Task 1</>,
+    },
+    {
+      defination: <><b>7.</b> Page 182. Task 1</>,
+    },
+    {
+      defination: <><b>8.</b> Page 254. Task 5</>,
+    },
+    {
+      defination: <><b>9.</b> Page 294. Task 5</>,
+    },
+    {
+      defination: <><b>10.</b> Page 314. Task 8</>,
+    },
+    {
+      defination: <><b>11.</b> Page 347. Task 2</>,
+    },
+    {
+      defination: <><b>12.</b> Page 428. Task 5</>,
     },
   ],
 };

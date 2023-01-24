@@ -1,5 +1,4 @@
-import {levels_name} from './levels_name'
 import {as_and_aDatas} from './as&a/as&a'
-import {igcseDatas} from './igcse'
+import {igcse} from './igcse/igcse'
 
-export {levels_name, as_and_aDatas, igcseDatas}
+export { as_and_aDatas, igcse}

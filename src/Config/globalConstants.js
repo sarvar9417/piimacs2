@@ -1,5 +1,5 @@
 import cs from "../assets/images/CS.jpeg";
-import { igcseDatas } from "../datas/igcse";
+import { igcse } from "../datas/igcse/igcse";
 import { as_and_aDatas } from "../datas/as&a/as&a";
 import { map } from "lodash";
 
@@ -23,13 +23,13 @@ const lower = [
 const getDatas = (datas) =>
   map(datas, ({ name, subsections }) => ({ name, subsections }));
 
-const igcse = getDatas(igcseDatas);
+const Igcse = getDatas(igcse);
 const as_and_a = getDatas(as_and_aDatas);
 const quizs = [{ name: "CPU" }];
 
 export const levels = {
   lower,
-  igcse,
+  Igcse,
   as_and_a,
   quizs,
 };
