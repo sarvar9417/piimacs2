@@ -237,5 +237,19 @@ export const linearSearch = {
         "else:\n" +
         '    print("It was not found")',
     },
+      {
+          defination: (
+              <>
+                  <b>3.</b> Page 131. Task 12
+              </>
+          ),
+      },
+      {
+          defination: (
+              <>
+                  <b>4.</b> Page 346. Task 2
+              </>
+          ),
+      },
   ],
 };

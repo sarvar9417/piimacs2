@@ -85,7 +85,6 @@ export const insertionSort = {
         "insertion_sort()\n" +
         "print(items)",
     },
-
     {
       name: "Tasks",
       defination: (
@@ -96,13 +95,13 @@ export const insertionSort = {
         </>
       ),
     },
-
     {
       defination: (
         <>
           Quyidagi protsedura 10 ta elementdan iborat TheArray global massivida
           insertion sortni amalga oshiradi.
-          <br /> InsertionSort() protsedurasi uchun psevdokodni to'ldiring hamda ushbu pseudocode uchun dastur yozing.
+          <br /> InsertionSort() protsedurasi uchun psevdokodni to'ldiring hamda
+          ushbu pseudocode uchun dastur yozing.
         </>
       ),
       pseudocode:
@@ -123,7 +122,6 @@ export const insertionSort = {
         "     ENDWHILE\n" +
         "ENDPROCEDURE",
     },
-
     {
       defination: (
         <>
@@ -146,7 +144,6 @@ export const insertionSort = {
         "    ArrayData[Index + 1] ← InsertScore\n" +
         "ENDFOR",
     },
-
     {
       defination: (
         <>
@@ -207,176 +204,184 @@ export const insertionSort = {
                 <td className="border border-neutral-400 text-center py-4"></td>
                 <td className="border border-neutral-400 text-center py-4"></td>
                 <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
               <tr>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
-                  <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
+                <td className="border border-neutral-400 text-center py-4"></td>
               </tr>
             </tbody>
           </table>
         </>
       ),
     },
-
-      {
-          defination: <>
-          Page 171. Task 1
-          </>
-      }
+    {
+      defination: (
+        <>
+          <b>3.</b> Page 171. Task 1
+        </>
+      ),
+    },
+    {
+      defination: (
+        <>
+          <b>4.</b> Page 315. Task 8
+        </>
+      ),
+    },
   ],
 };
