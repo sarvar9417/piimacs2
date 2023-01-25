@@ -8,7 +8,7 @@ export const tasks = {
         },
         {
             defination: <>
-                <b>2.</b>  Page 26. Task 4
+                <b>2.</b>  Page 27. Task 5
             </>
         },
         {

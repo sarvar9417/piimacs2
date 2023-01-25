@@ -110,15 +110,38 @@ export const binarySearch = {
         "    print('not found')",
     },
 
+    {
+      defination: (
+        <>
+          <b>1. </b> A 1D array Data of type integer contains 200 elements. Each
+          element has a unique value.
+          <br /> An algorithm is required to search for the largest value and
+          output it.
+          <br /> Describe the steps that the algorithm should perform.
+          <br /> Do not include pseudocode statements in your answer.
+        </>
+      ),
+    },
+    {
+      defination: (
+        <>
+          <b>2. </b> Page 131. Task 12
+        </>
+      ),
+    },
       {
-          defination: <> <b>1. </b> Page 64. Task 3 </>
+          defination: (
+              <>
+                  <b>3(9608-21-M-41). </b> Page 186. Task 5
+              </>
+          ),
       },
       {
-          defination: <> <b>1. </b> Page 131. Task 12 </>
-      }
-      ,
-      {
-          defination: <> <b>1. </b> Page 143. Task 11 </>
-      }
+          defination: (
+              <>
+                  <b>3(9608-16-O-41). </b> Page 1142. Task 3
+              </>
+          ),
+      },
   ],
 };
