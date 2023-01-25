@@ -86,10 +86,8 @@ export const binarySearch = {
         " \n" +
         "    first = 0\n" +
         "    last = len(items) - 1\n" +
-        "    midpoint = (first + last) // 2\n" +
         "    while first <= last :\n" +
         "        midpoint = (first + last) // 2\n" +
-        "        print(first, midpoint, last)\n" +
         "        if items[midpoint] == search_item:\n" +
         "            return midpoint    \n" +
         "        elif items[midpoint] < search_item:\n" +
