@@ -83,16 +83,14 @@ export const binarySearch = {
         "    OUTPUT 'not found'",
       code:
         "def binary_search(search_item):\n" +
-        "  \n" +
-        "    found = False\n" +
+        " \n" +
         "    first = 0\n" +
         "    last = len(items) - 1\n" +
-        "    \n" +
-        "    while first <= last:\n" +
+        "    midpoint = (first + last) // 2\n" +
+        "    while first <= last :\n" +
         "        midpoint = (first + last) // 2\n" +
-        "        print( first,midpoint, last)\n" +
+        "        print(first, midpoint, last)\n" +
         "        if items[midpoint] == search_item:\n" +
-        '            print("salom")\n' +
         "            return midpoint    \n" +
         "        elif items[midpoint] < search_item:\n" +
         "            first = midpoint + 1\n" +
@@ -102,8 +100,8 @@ export const binarySearch = {
         "    return -1\n" +
         "    \n" +
         "items = [1, 3, 5, 7, 11, 13, 17, 19, 23, 27, 31, 37, 41, 43, 47, 53, 59]\n" +
-        "\n" +
-        "index = binary_search(19)\n" +
+        "s = int(input('n = '))\n" +
+        "index = binary_search(s)\n" +
         "if (index != -1):\n" +
         "    print(index)\n" +
         "else:\n" +
@@ -129,19 +127,19 @@ export const binarySearch = {
         </>
       ),
     },
-      {
-          defination: (
-              <>
-                  <b>3(9608-21-M-41). </b> Page 186. Task 5
-              </>
-          ),
-      },
-      {
-          defination: (
-              <>
-                  <b>3(9608-16-O-41). </b> Page 1142. Task 3
-              </>
-          ),
-      },
+    {
+      defination: (
+        <>
+          <b>3(9608-21-M-41). </b> Page 186. Task 5
+        </>
+      ),
+    },
+    {
+      defination: (
+        <>
+          <b>3(9608-16-O-41). </b> Page 1142. Task 3
+        </>
+      ),
+    },
   ],
 };
