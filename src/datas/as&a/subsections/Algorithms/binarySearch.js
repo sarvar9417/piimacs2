@@ -56,15 +56,13 @@ export const binarySearch = {
       pseudocode:
         "FUNCTION binary_search( search_item) \n" +
         "    found <- False\n" +
-        "    found_index <- -1\n" +
         "    first <- 0\n" +
         "    last <- LEN(items) - 1\n" +
         "\n" +
-        "    WHILE first <= last AND found = False\n" +
+        "    WHILE first <= last DO\n" +
         "        midpoint <- (first + last) DIV 2\n" +
         "        IF items[midpoint] = search_item THEN \n" +
-        "            found_index <- midpoint\n" +
-        "            found <- True\n" +
+        "            RETURN midpoint\n" +
         "        ELSEIF items[midpoint] < search_item THEN\n" +
         "            first <- midpoint + 1\n" +
         "        ELSE\n" +
@@ -72,7 +70,7 @@ export const binarySearch = {
         "        ENDIF\n" +
         "    ENDWHILE\n" +
         "    \n" +
-        "    RETURN found_index\n" +
+        "    RETURN -1\n" +
         "    \n" +
         "ENDFUNCTION\n" +
         "\n" +
@@ -80,36 +78,47 @@ export const binarySearch = {
         "index <- binary_search( search_item) \n" +
         "IF (index <> -1)\n" +
         "    THEN\n" +
-        "        OUTPUT items[index]\n" +
+        "        OUTPUT index\n" +
         "ELSE\n" +
         "    OUTPUT 'not found'",
       code:
         "def binary_search(search_item):\n" +
         "  \n" +
         "    found = False\n" +
-        "    found_index = -1\n" +
         "    first = 0\n" +
         "    last = len(items) - 1\n" +
         "    \n" +
-        "    while first <= last and found == False:\n" +
+        "    while first <= last:\n" +
         "        midpoint = (first + last) // 2\n" +
+        "        print( first,midpoint, last)\n" +
         "        if items[midpoint] == search_item:\n" +
-        "            found_index = midpoint\n" +
-        "            found = True    \n" +
+        '            print("salom")\n' +
+        "            return midpoint    \n" +
         "        elif items[midpoint] < search_item:\n" +
         "            first = midpoint + 1\n" +
         "        else:\n" +
         "            last = midpoint - 1\n" +
         "            \n" +
-        "    return found_index\n" +
+        "    return -1\n" +
         "    \n" +
         "items = [1, 3, 5, 7, 11, 13, 17, 19, 23, 27, 31, 37, 41, 43, 47, 53, 59]\n" +
         "\n" +
-        "index = binary_search(45)\n" +
+        "index = binary_search(19)\n" +
         "if (index != -1):\n" +
-        "    print(items[index])\n" +
+        "    print(index)\n" +
         "else:\n" +
         "    print('not found')",
     },
+
+      {
+          defination: <> <b>1. </b> Page 64. Task 3 </>
+      },
+      {
+          defination: <> <b>1. </b> Page 131. Task 12 </>
+      }
+      ,
+      {
+          defination: <> <b>1. </b> Page 143. Task 11 </>
+      }
   ],
 };

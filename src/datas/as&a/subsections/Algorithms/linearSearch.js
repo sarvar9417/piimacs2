@@ -240,14 +240,35 @@ export const linearSearch = {
       {
           defination: (
               <>
-                  <b>3.</b> Page 131. Task 12
+                  <b>3.</b> Page 65. Task 3
               </>
           ),
       },
       {
           defination: (
               <>
-                  <b>4.</b> Page 346. Task 2
+                  <b>4.</b> Page 96. Task 7
+              </>
+          ),
+      },
+      {
+          defination: (
+              <>
+                  <b>5.</b> Page 131. Task 12
+              </>
+          ),
+      },
+      {
+          defination: (
+              <>
+                  <b>6.</b> Page 158. Task 1
+              </>
+          ),
+      },
+      {
+          defination: (
+              <>
+                  <b>7.</b> Page 346. Task 2
               </>
           ),
       },
