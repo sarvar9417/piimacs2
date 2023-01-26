@@ -1,4 +1,4 @@
-import binarysearch from "../../../../assets/images/binarySearch.gif";
+import binarysearch from "../../../../../assets/images/binarySearch.gif";
 
 export const binarySearch = {
   name: "Binary",

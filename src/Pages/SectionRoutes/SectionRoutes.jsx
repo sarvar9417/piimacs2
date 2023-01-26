@@ -50,11 +50,11 @@ const SectionRoutes = () => {
                 <h3 className="font-bold text-cyan-500 text-xl">{name}</h3>
               )}
               {term ? (
-                <div className={language === "uzb" && "bg-slate-100"}>
+                <div className={language === "uzb" ? "bg-slate-100":""}>
                   <b>{term}</b> - {defination}
                 </div>
               ) : (
-                <div className={language === "uzb" && "bg-slate-100 " }>
+                <div className={language === "uzb" ? "bg-slate-100 ":"" }>
                   {defination}
                 </div>
               )}

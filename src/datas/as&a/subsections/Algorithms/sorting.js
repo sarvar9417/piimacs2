@@ -1,5 +1,5 @@
-import { bubbleSort } from "./bubleSort";
-import {insertionSort} from './insertionSort'
+import { bubbleSort } from "./sort/bubleSort";
+import {insertionSort} from './sort/insertionSort'
 
 export const sorting = {
   name: "Sorting algorithms",

@@ -1,4 +1,4 @@
-import insertionsort from "../../../../assets/images/insertionSort.gif";
+import insertionsort from "../../../../../assets/images/insertionSort.gif";
 
 export const insertionSort = {
   name: "Insertion sort",

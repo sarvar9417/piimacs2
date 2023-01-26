@@ -1,7 +1,7 @@
-import linearSearch1 from "../../../../assets/images/linearSearch.png";
-import linearSearch2 from "../../../../assets/images/linearsearch2.svg";
-import linearSearch3 from "../../../../assets/images/linearsearch3.svg";
-import linearSearch4 from "../../../../assets/images/linearsearchiitr.gif";
+import linearSearch1 from "../../../../../assets/images/linearSearch.png";
+import linearSearch2 from "../../../../../assets/images/linearsearch2.svg";
+import linearSearch3 from "../../../../../assets/images/linearsearch3.svg";
+import linearSearch4 from "../../../../../assets/images/linearsearchiitr.gif";
 
 export const linearSearch = {
   name: "Linear",

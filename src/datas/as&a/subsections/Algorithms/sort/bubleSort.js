@@ -1,4 +1,4 @@
-import bubleSort from "../../../../assets/images/bubbleSort.gif";
+import bubleSort from "../../../../../assets/images/bubbleSort.gif";
 
 export const bubbleSort = {
   name: "Bubble sort",
