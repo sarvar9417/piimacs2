@@ -87,7 +87,7 @@ export const linkedList = {
       pseudocode:
         "numbers <- [6, 7, 3, 9, 2, 4, 1, 0, 5, 8]\n" +
         "NextPointer <- [1, 9, 5, -1, 2, 8, 4, 6, 0, 3]\n" +
-        "HeadPointer <- 4\n" +
+        "HeadPointer <- 7\n" +
         "Pointer <- HeadPointer \n" +
         "Found <- -1\n" +
         'OUTPUT "Enter a searching number "\n' +
@@ -114,7 +114,6 @@ export const linkedList = {
         "found = -1\n" +
         'searchingNumber = int(input("Enter a searching number "))\n' +
         "while (pointer != -1):\n" +
-        "    print(pointer)\n" +
         "    if numbers[pointer] == searchingNumber: \n" +
         "        found = pointer\n" +
         "        pointer = -1\n" +
