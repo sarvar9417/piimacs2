@@ -107,7 +107,7 @@ export const linkedList = {
         "ENDIF",
 
       code:
-        "numbers =     [6, 7, 3, 9, 2, 4, 1, 0, 5, 8]\n" +
+        "numbers = [6, 7, 3, 9, 2, 4, 1, 0, 5, 8]\n" +
         "nextPointer = [1, 9, 5, -1, 2, 8, 4, 6, 0, 3]\n" +
         "headPointer = 7\n" +
         "pointer = headPointer \n" +
