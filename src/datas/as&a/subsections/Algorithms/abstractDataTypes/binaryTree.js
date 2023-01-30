@@ -1,6 +1,8 @@
 import binaryT from "../../../../../assets/images/binaryTree.png";
 import binaryT2 from "../../../../../assets/images/binaryTree2.png";
 import binaryT3 from "../../../../../assets/images/binaryTree3.png";
+import binaryTreeSearch from "../../../../../assets/images/binaryTreeSearch.gif";
+
 
 export const binaryTree = {
   name: "Binary Tree",
@@ -225,6 +227,12 @@ export const binaryTree = {
         "    ENDIF\n" +
         "ENDWHILE\n" +
         "RETURN itemPointer",
+
+        image: {
+          name: binaryTreeSearch,
+            alt: "binaryTreeSearch",
+            width: '400px'
+        }
     },
     {
       name: (
