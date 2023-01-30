@@ -1,4 +1,5 @@
 export const algorithms = [
+  {name: 'Algorithm ', subsection: 'algorithm'},
   { name: "Loops: For, While, Repeat until ", subsection: "loops" },
   { name: "Searching algorithms", subsection: 'searching' },
   { name: "Sorting algorithms", subsection: 'sorting' },

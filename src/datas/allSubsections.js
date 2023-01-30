@@ -4,8 +4,9 @@ import {arrays} from './as&a/subsections/Arrays/arrays'
 import {searching} from './as&a/subsections/Algorithms/searching'
 import {sorting} from './as&a/subsections/Algorithms/sorting'
 import {abstractDataTypes} from './as&a/subsections/Algorithms/abstractDataTypes'
+import {algorithm} from './as&a/subsections/Algorithms/algorithm'
 
 export const allSubsections = {
-    loops, databases, arrays, searching, sorting, abstractDataTypes
+    loops, databases, arrays, searching, sorting, abstractDataTypes, algorithm
 
 }

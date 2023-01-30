@@ -2,6 +2,7 @@ import {adt} from './abstractDataTypes/adt'
 import {stack} from './abstractDataTypes/stack'
 import {linkedList} from './abstractDataTypes/linkedList'
 import {binaryTree} from './abstractDataTypes/binaryTree'
+import {computationalThinking} from './AlgorithmDesignAndProblemsolving/computationalThinking'
 
 export const abstractDataTypes = {
     name: 'Abstract Data Types (ADTs)',
@@ -17,6 +18,9 @@ export const abstractDataTypes = {
         },
         {
             name: 'Stack', to: '/stack', datas: stack
+        },
+        {
+            name: 'Computational thinking', datas: computationalThinking
         }
     ]
 }
