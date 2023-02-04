@@ -3,6 +3,8 @@ import {stack} from './abstractDataTypes/stack'
 import {linkedList} from './abstractDataTypes/linkedList'
 import {binaryTree} from './abstractDataTypes/binaryTree'
 import {computationalThinking} from './AlgorithmDesignAndProblemsolving/computationalThinking'
+import {pseudocodes} from './abstractDataTypes/pseudocodes'
+import {codes} from './abstractDataTypes/codes'
 
 export const abstractDataTypes = {
     name: 'Abstract Data Types (ADTs)',
@@ -21,6 +23,12 @@ export const abstractDataTypes = {
         },
         {
             name: 'Computational thinking', datas: computationalThinking
+        },
+        {
+            name: 'Pseudocodes', to: '/pseudocode', datas:pseudocodes
+        },
+        {
+            name: 'Codes', to: '/codes', datas:codes
         }
     ]
 }
