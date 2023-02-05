@@ -198,7 +198,76 @@ export const codes = {
     },
     {
       name: "Create a new binary tree",
-
-    }
+    },
+    {
+      name: "Create a new Stack with no elements",
+      code:
+        "stack = [None for index in range(0,10)] \n" +
+        "basePointer = 0\n" +
+        "topPointer = -1\n" +
+        "stackFull = 10\n" +
+        "item = None",
+    },
+    {
+      name: " Stack pop operation",
+      code:
+        "def pop():\n" +
+        "    global topPointer, basePointer, item \n" +
+        "    if topPointer == basePointer -1:\n" +
+        '        print("Stack is empty,cannot pop") \n' +
+        "    else:\n" +
+        "        item = stack[topPointer] \n" +
+        "        topPointer = topPointer -1",
+    },
+    {
+      name: "Stack push operation",
+      code:
+        "def push(item):\n" +
+        "    global topPointer\n" +
+        "    if topPointer < stackFull - 1: \n" +
+        "        topPointer = topPointer + 1 \n" +
+        "        stack[topPointer] = item\n" +
+        "    else:\n" +
+        '        print("Stack is full, cannot push")',
+    },
+    {
+      name: "Create a new Queue with no items",
+      code:
+        "queue = [None for index in range(0,10)] \n" +
+        "frontPointer = 0\n" +
+        "rearPointer = -1\n" +
+        "queueFull = 10\n" +
+        "queueLength = 0",
+    },
+    {
+      name: "Queue enqueue (add item to queue) operation",
+      code:
+        "def enQueue(item):\n" +
+        "    global queueLength, rearPointer \n" +
+        "    if queueLength < queueFull:\n" +
+        "        if rearPointer < len(queue) - 1: \n" +
+        "            rearPointer = rearPointer + 1\n" +
+        "        else:\n" +
+        "            rearPointer = 0\n" +
+        "        queueLength = queueLength + 1\n" +
+        "        queue[rearPointer] = item \n" +
+        "    else:\n" +
+        '        print("Queue is full, cannot enqueue")',
+    },
+    {
+      name: "Queue dequeue (remove item from queue) operation",
+      code:
+        "def deQueue():\n" +
+        "    global queueLength, frontPointer, item \n" +
+        "    if queueLength == 0:\n" +
+        '        print("Queue is empty,cannot dequeue") \n' +
+        "    else:\n" +
+        "        item = queue[frontPointer]\n" +
+        "        if frontPointer == len(queue) - 1:\n" +
+        "            frontPointer = 0 \n" +
+        "        else:\n" +
+        "            frontPointer = frontPointer + 1 \n" +
+        "    queueLength = queueLength -1",
+    },
   ],
 };
