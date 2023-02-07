@@ -9,3 +9,4 @@ export const algorithms = [
 ];
 export const databases = [{ name: "Database ", subsection: "databases" }];
 export const arrays = [{ name: "Arrays", subsection: "arrays" }];
+export const recursion = [{ name: "Recursion", subsection: "recursion"}]

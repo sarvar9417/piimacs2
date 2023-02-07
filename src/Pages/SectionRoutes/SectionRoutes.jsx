@@ -11,7 +11,6 @@ const SectionRoutes = () => {
   const subsections = allSubsections[locationState]?.routes;
   const [datas, setDatas] = useState(subsections[0].datas);
   const [buttonName, setButtonName] = useState(subsections[0]?.name);
-
   const handleMenu = (e) => {
     const name = e.target.name;
     setButtonName(name);
