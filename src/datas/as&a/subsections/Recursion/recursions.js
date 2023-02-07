@@ -54,7 +54,7 @@ export const recursions = {
     {
       defination: (
         <>
-          <b>General case</b> – funksiyaninng o'ziga muraojaat qiluvchi qismi.
+          <b>General case</b> – funksiyaninng o'ziga murojaat qiluvchi qismi.
         </>
       ),
       language: "uzb",
@@ -75,22 +75,21 @@ export const recursions = {
       code:
         "def factorial(number):\n" +
         "    if number == 0:\n" +
-        "            answer = 1 #base case\n" +
+        "        return 1 #base case\n" +
         "    else:\n" +
-        "        answer = number * factorial(number - 1) \n" +
+        "        return number * factorial(number - 1) \n" +
         "        # recursive call with general case\n" +
-        "    return answer\n" +
-        "\n" +
+        "        \n" +
         "n = int(input('Please enter number: '))\n" +
         "f = factorial(n)\n" +
         "print(f)",
     },
     {
-      image:{
+      image: {
         name: recursionTable,
         alt: "recursion",
-        width: "800px"
-      }
-    }
+        width: "800px",
+      },
+    },
   ],
 };
