@@ -2,6 +2,10 @@ import {recursions} from './recursions'
 import {linearSearch} from './linearSearch'
 import {binarySearch} from './binarySearch'
 import {bubbleSort} from './bubbleSort'
+import {linkedList} from './linkedList'
+import {binaryTree} from './binaryTree'
+import {stack} from './stack'
+import {queue} from './queue'
 
 export const recursion = {
     name: 'Recursion',
@@ -17,6 +21,18 @@ export const recursion = {
         },
         {
             name: 'Bubble sort', to:'/bubbleSort', datas: bubbleSort
+        },
+        {
+            name: 'Linked list', to:'/list', datas: linkedList
+        },
+        {
+            name: 'Binary tree', to:'/binaryTree', datas: binaryTree
+        },
+        {
+            name: 'Stack', to:'/stack', datas: stack
+        },
+        {
+            name: 'Queue', to:'/queue', datas: queue
         }
     ]
 
